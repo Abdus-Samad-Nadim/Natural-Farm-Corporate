@@ -1,4 +1,6 @@
-.top{
+*{
+    font-family: 'Old Standard TT', serif;
+}.top{
     height: 500px;
     width: 100%;
     background-image: url("mountain.jpg");
@@ -12,7 +14,7 @@
     padding-left: 220px;
 }
 .topleft h3{
-    color: #4cd137;
+    color: #93BE14;
    margin-bottom: 80px;
 }
 .topleft h4{
@@ -24,15 +26,16 @@
     color: white;
 }
 .topleft h1{
-    color: #4cd137;
+    color: #93BE14;
 }
 .topleft p{
     color: white;
+    text-align: left;
 }
 .topleft button{
     height: 30px;
     width: 180px;
-    background-color: #4cd137;
+    background-color: #69BE14;
     border: none;
     border-radius: 5px;
 }
@@ -48,7 +51,7 @@
 .main{
     height: 100%;
     width: 300px;
-    background-color: #4cd137;
+    background-color: #93BE14;
     padding-top: 1px;
 }
 .main h4{
@@ -62,7 +65,7 @@
 input{
     height: 28px;
     width: 90%;
-    background-color: #4cd137;
+    background-color: #93BE14;
     color: white;
     border-top: none;
     border-left: none;
@@ -92,28 +95,53 @@ input{
 }
 .mid h3{
     text-align: center;
-    color: #4cd137;
+    color: #93BE14;
     padding-top: 50px;
 }
 hr{
     border-width: 0.5px;
     width: 250px;
-    border-color: #4cd137;
+    border-color: #93BE14;
 }
 .one{
     height: 250px;
     width: 300px;
-    margin: 10px;
+    margin: 15px;
     float: left;
 }
-.one img{
-    height: 120px;
-    width: 130px;
-    margin-left: 86px;
-    border-radius: 50%;
+.hex  {
+  position:relative;
+  margin:auto;
+  text-align:center;
+  overflow:hidden;
+  white-space:nowrap;
+  display:table;
+}
+.hex:before {
+  content:'';
+  padding-top:120%;
+  display:inline-block;
+  vertical-align:middle;
+}
+
+.hex:after {
+  content:'';
+  position:absolute;
+  top:0%;
+  left:-10%;
+  width:120%;
+  padding-top:120%;
+  transform: rotatex(38deg) rotate(45deg);
+  text-align:center;
+  box-shadow:0 0 0 200px white;;
+}
+.hex img {
+  display:inline-block;
+  vertical-align:middle;
+  margin:0 -10px;
 }
 .one h4{
-    color: #4cd137;
+    color: #93BE14;
 }
 .one p{
     color: black;
@@ -121,7 +149,7 @@ hr{
 .bottom{
     height: 600px;
     width: 100%;
-    background-image: url("green.jpg");
+    background-image: url("gy.png");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -137,8 +165,7 @@ hr{
 .bottomone{
     height: 120px;
     width: 500px;
-    margin-left: 300px;
-    float: left;
+    margin: 25px 0px 0px 400px;
 }
 .bottomone h3{
     color: white;
@@ -150,7 +177,7 @@ hr{
     height: 300px;
     width: 600px;
     float: left;
-    margin: 20px 0px 20px 350px;
+    margin: 20px 0px 20px 450px;
 
 }
 i{
@@ -163,16 +190,17 @@ i{
     margin-top: -50px;
 }
 .bottomtwo p{
-    margin-right: 15px;
+    margin-right: -25px;
     margin-top: -15px;
 }
 .last{
     height: 500px;
     width: 100%;
+    margin-top: 25px;
 }
 .last h2{
     text-align: center;
-    color: #4cd137;
+    color: #93BE14;
 }
 .last p{
     color: black;
@@ -196,15 +224,15 @@ i{
 footer{
     height: 70px;
     width: 100%;
-    background-color: #4cd137;
+    background-color: #93BE14;
 }
 .nine{
-   height: 100%;
+    height: 100%;
     width: 50%;
     float: left;
 }
 .ten{
-   height: 100%;
+    height: 100%;
     width: 50%;
     float: left;
     margin-top: 15px;
